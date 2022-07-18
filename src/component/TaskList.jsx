@@ -41,7 +41,7 @@ export const TaskList = ({ task,setTask }) => {
   }
  
   return (
-    <ul className={'list-group'}>
+    <ul className={'list-group lista-tareas-container'}>
       {task.map(item => 
         <Task
           text={item.text}
