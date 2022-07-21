@@ -25,6 +25,8 @@ export const ToDoList = () => {
 
         <Form onSubmit={setTask} />
         <TaskList setTask={setTask} task={task}/>
+        <button className='btn btn-danger'
+          onClick={() => setTask([])}>Eliminar todas las tareas</button>
     </div>
   )
 }
