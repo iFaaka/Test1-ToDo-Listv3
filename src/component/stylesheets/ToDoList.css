@@ -4,4 +4,18 @@
     margin-top: 2vh;
     max-height: 80vh;
     border-radius: 25px;
+    border: solid black 1px;
+
+}
+
+@media (max-width: 1024px) {
+    .app-container {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .app-container {
+        width: 80vw;
+    }
 }
